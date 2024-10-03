@@ -1,0 +1,53 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body
+{
+    background-color: #000000;
+    
+}
+.sq
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+border-radius: 50%;
+    animation:circles 5s infinite;
+    position: relative;
+}
+@keyframes circles
+{
+    0%{
+top: 0px;
+left: 0px;
+    }
+    25%
+    {
+        top: 0px;
+        left: 40%;
+        background-color: aqua;
+        border-radius: 5%;
+    }
+    50%
+    {
+        top: 500px;
+        left: 40%;
+        background-color: rgb(17, 230, 102);
+    }
+    75%
+    {
+        top: 500px;
+        left: 0%;
+        background-color: rgb(216, 235, 15);
+    }
+    100%
+    {
+        top: 0px;
+        left: 0%;
+        background-color: rgb(226, 27, 27);
+    }
+}
