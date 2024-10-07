@@ -14,10 +14,12 @@ footer .row{
     align-items: start;
     padding: 10px 0px;
 }
-footer .row .col{
-    margin: 10px 50px;
+footer .row .col
+{
+    margin: 10px 40px;
 }
-footer .row .col a{
+footer .row .col a
+{
     text-decoration: none;
     color: #666;
     font-size: 0.8rem;
